@@ -67,6 +67,8 @@ class HomeController extends Controller
         
          return view('home.product_details',compact('data','count'));
       }
+
+      
       public function add_cart($id)
      {
         $product_id = $id;

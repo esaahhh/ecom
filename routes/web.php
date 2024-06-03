@@ -4,12 +4,6 @@ use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AdminController;
-use App\Http\Controllers\WishlistController;
-use App\Http\Controllers\Auth\EmailVerificationPromptController;
-
-
-
-
 
 route::get('/',[HomeController::class,'home']);
 
@@ -92,6 +86,6 @@ route::get('wishlist_details/{id}',[HomeController::class,'wishlist_details'])
 use App\Http\Controllers\Auth\VerifyEmailController;
 use App\Http\Requests\Auth\LoginRequest;
 
-Route::get('verify-email/{id}/{hash}', VerifyEmailController::class)
-    ->middleware(['auth', 'signed'])
-    ->name('verification.verify');
+// Route::get('verify-email/{id}/{hash}', VerifyEmailController::class)
+//     ->middleware(['auth', 'signed'])
+//     ->name('verification.verify');

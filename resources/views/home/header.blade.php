@@ -2,7 +2,7 @@
       <nav class="navbar navbar-expand-lg custom_nav-container ">
         <a class="navbar-brand" href="index.html">
           <span>
-            Giftos
+            Project
           </span>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,6 +35,9 @@
           </ul>
           <div class="user_option">
 
+
+          
+
           @if(Route ::has('login'))
 
           @auth
@@ -48,10 +51,10 @@
             </a>
             
           
-          <form style="padding:15px"method="POST" action="{{ route('logout') }}">
+          <form style="padding:15px" method="POST" action="{{ route('logout') }}">
                     @csrf
 
-                    <input class="btn btn-success" type="submit" value="Logout">
+                 <input class="btn btn-success" type="submit" value="Logout">
                     
             </form>
             @else
@@ -73,6 +76,7 @@
                 Register
               </span>
             </a>
+            
 
             @endauth
             @endif
@@ -82,3 +86,4 @@
           </div>
         </div>
       </nav>
+</header>

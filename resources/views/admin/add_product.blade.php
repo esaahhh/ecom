@@ -29,6 +29,7 @@ input[type='text']
 }
 textarea{
     width:450px;
+    height:80px;
 }
 
 

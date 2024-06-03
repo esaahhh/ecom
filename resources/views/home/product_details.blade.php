@@ -17,11 +17,6 @@
         padding:15px;
 
     }
-
-
-
-
-
 </style>
 
 </head>

@@ -8,11 +8,6 @@
       </div>
       <div class="row">
         @foreach($product as $products)
-
-
-
-
-
         <div class="col-sm-6 col-md-4 col-lg-3">
           <div class="box">
             
@@ -35,12 +30,7 @@
               
               <a class="btn btn-primary" href="{{ url('add_cart', $products->id) }}">Add to Cart</a>
 
-              <div style="padding:10px; margin-left: 35px;";>
-              
-              <a class="btn btn-success " href="{{ url('wishlist_details', $products->id) }}">Wishlist</a>
-
-
-                </div>
+             
 
                 </div>
              
